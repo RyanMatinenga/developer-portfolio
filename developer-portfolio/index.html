@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ryan Matinenga | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/layout.css">
+  <link rel="stylesheet" href="styles/components.css">
+  <link rel="stylesheet" href="styles/sections.css">
+</head>
+<body>
+  <div data-include="sections/nav.html"></div>
+
+  <main id="page-content">
+    <div data-include="sections/hero.html"></div>
+    <hr class="section-divider">
+    <div data-include="sections/skills.html"></div>
+    <hr class="section-divider">
+    <div data-include="sections/projects.html"></div>
+    <hr class="section-divider">
+    <div data-include="sections/log.html"></div>
+    <hr class="section-divider">
+    <div data-include="sections/about.html"></div>
+    <hr class="section-divider">
+    <div data-include="sections/contact.html"></div>
+  </main>
+
+  <div data-include="sections/footer.html"></div>
+
+  <noscript>
+    <div class="section" style="padding-top: 120px;">
+      JavaScript is required to assemble this modular page.
+    </div>
+  </noscript>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>
