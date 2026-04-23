@@ -201,16 +201,6 @@
   transform: translateY(-3px);
 }
 
-.project-card.coming-soon {
-  opacity: 0.45;
-  cursor: default;
-}
-
-.project-card.coming-soon:hover {
-  border-color: var(--border);
-  transform: none;
-}
-
 .project-tag {
   display: inline-flex;
   width: fit-content;
